@@ -148,3 +148,49 @@ html{
   margin: 10px 0 0 112px;
   background-color: #81777733;
 }
+.block-do-you-heading-text-services {
+  display: flex;
+}
+h2{
+  font-size: 42px;
+  line-height: 1.3;
+  letter-spacing: 0.42px;
+  
+  
+
+}
+.top-block-text-under-the-heading{ 
+  line-height: 1.73;
+  white-space: nowrap;
+  width: 506px;
+  height: 98px;
+  color: #000000;
+ 
+  padding-left: 1px;
+
+}
+.button-learn-more{
+  width: 227px;
+  height: 55px;
+  margin: 38px 0px 0px 0;
+  padding: 0 0 0 0;
+  border-radius: 5px;
+  border: 1px;
+  background-color:#FFFFFF ;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #FF2D2D;
+  border-radius: 5px;
+  border: solid 2px #ff0000;
+  font-weight: 600;
+}
+.top-block-right-services{
+  width:615px ;
+  height: 479px ;
+  display: flex;
+  flex-wrap: wrap;
+}
+.services{
+  Width:273px;
+  Height:214px;
+}
