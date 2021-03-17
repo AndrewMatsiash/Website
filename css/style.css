@@ -18,6 +18,7 @@ html{
    margin: 0;
    padding: 0;
  }
+ 
  .wrapper{
   min-height: 100%;
   width: 100%;
@@ -120,12 +121,12 @@ html{
   .top-block-text{
     width: 506px;
     height: 98px;
-    line-height: 1.73;
+    line-height: 1.75;
     text-align: left;
     color: #000000;
     display: inline-block;
     white-space: nowrap;
-    padding-left: 1px;
+    padding:0 0 0 1px;
     
   }
   
@@ -150,29 +151,35 @@ html{
 }
 .block-do-you-heading-text-services {
   display: flex;
+  padding: 0 ;
+  height: 588px;
+}
+.block-do-you-left-text-button{
+  width: 50%;
+  padding: 0 0 0 0;
 }
 h2{
   font-size: 42px;
   line-height: 1.3;
   letter-spacing: 0.42px;
-  
+  margin: 95px 0 36px 0;
   
 
 }
-.top-block-text-under-the-heading{ 
+.block-do-you-text-under-the-heading{ 
   line-height: 1.73;
   white-space: nowrap;
   width: 506px;
   height: 98px;
   color: #000000;
- 
+  margin: 10px 0 0 0 ;
   padding-left: 1px;
 
 }
 .button-learn-more{
   width: 227px;
   height: 55px;
-  margin: 38px 0px 0px 0;
+  margin: 65px 0px 0px 0;
   padding: 0 0 0 0;
   border-radius: 5px;
   border: 1px;
@@ -184,13 +191,85 @@ h2{
   border: solid 2px #ff0000;
   font-weight: 600;
 }
-.top-block-right-services{
+.block-do-you-right-services{
   width:615px ;
-  height: 479px ;
   display: flex;
   flex-wrap: wrap;
+  padding: 93px 0 0 18px;
+  
+  
 }
-.services{
+  
+.services_management{
   Width:273px;
   Height:214px;
+  margin: 0 0 50px 0;
+  padding: 0 0 0px 0;
+  
+}
+.img-services_management {
+  margin: 8px 0 16px 0;
+  
+}
+.heading-services_management {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.24px;
+  
+}
+.text_services_management{
+  line-height: 1.75;
+  white-space: nowrap;
+  margin: 10px 0 0 0;
+}
+.services_design {
+  Width:273px;
+  Height:214px;
+  margin: 0 0 0px 48px;
+  padding: 0 0 0 0;
+}
+.img-services_design {
+ margin: 8px 0 20px 0;
+}
+.heading-services_design {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.24px;
+}
+.text_services_design{
+  line-height: 1.75;
+  white-space: nowrap;
+  margin: 10px 0 0 0;
+  }
+
+.services_logo {
+  Width:273px;
+  Height:214px;
+  margin: px 0 0 0;
+}
+.img-services_logo {
+  
+}
+.heading-services_logo {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.24px;
+  margin: 10px 0 0 0;
+}
+.text_services_logo{
+margin: 0 0 0 0;
+  
+}
+.services_animation {
+  Width:273px;
+  Height:214px;
+  padding: 0 0 0 50px;
+}
+.img-services_animation {
+  margin: 0 0 25px 0;
+}
+.heading-services_animation {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.24px;
 }
