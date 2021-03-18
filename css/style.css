@@ -318,5 +318,11 @@ h2 {
     line-height: 1.75;
     white-space: nowrap;
     margin: 8px 0 0 0;
-
-  
+}
+  .dividing-line {
+    margin: 100px 0 0 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 2px solid #333;;
+  }
