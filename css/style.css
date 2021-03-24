@@ -16,6 +16,8 @@ body {
 a {
     text-decoration: none;
     display: inline-block;
+    color: #f0f0f0;
+
 }
 
 ul, li {
@@ -23,6 +25,7 @@ ul, li {
     margin: 0;
     padding: 0;
 }
+
 
 .wrapper {
     height: 100vh;
@@ -42,7 +45,6 @@ ul, li {
     max-width: 1250px;
     margin: 0 auto;
     height: 100%;
-
     padding: 0;
     overflow: hidden;
 }
@@ -50,60 +52,52 @@ ul, li {
 .header {
     width: 1249px;
     height: 89px;
-    margin: 29px 2px 94px 1px;
-    padding: 0 432px 0 358px;
-    opacity: 0.8;
-    background-color: #000000;
-
+    margin: 29px 0px 94px 0px;
+    display: flex;
+    justify-content: center;
+    padding: 0 40px 0 0;
+    background-color: #313030;
+    overflow: hidden;
 }
 
 .menu-header {
     display: flex;
     font-size: 14px;
     font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.71;
+    height: 100%;
+    margin: 0 0 0 0;
+
 }
 
-.nav-menu-active {
+.nav-menu {
+    text-align: center;
+    padding: 38px 0 0 0px;
     width: 90px;
-    height: 89px;
-    padding: 38px 24px 33px 23px;
-    box-shadow: -0.3px -2px 35px 0 rgba(0, 1, 1, 0.3);
-    background-color: #ff3f40;
+    height: 100%;
+    margin: 0px 30px 0 0;
+    letter-spacing: 0.49px;
+
+
+}
+
+.nav-menu:hover {
+    background-color: #FF3F40;
 
 }
 
 .nav-menu-link-home {
-    width: 43px;
-    height: 12px;
-    letter-spacing: 1px;
-    color: #e0e0e0;
+
+
 }
 
 .nav-menu-link-portfolio {
-    width: 83px;
-    height: 12px;
-    margin: 37px 48px 34px 39px;
-    letter-spacing: 0.50px;
-    color: #e0e0e0;
 }
 
+
 .nav-menu-link-about-us {
-    width: 75px;
-    height: 12px;
-    margin: 37px 25px 34px 2px;
-    letter-spacing: 0.23px;
-    color: #e0e0e0;
 }
 
 .nav-menu-link-contact {
-    width: 69px;
-    height: 12px;
-    margin: 37px 0 34px 27px;
-    letter-spacing: 0.58px;
-    color: #e0e0e0;
 }
 
 .top-block-text-video {
@@ -341,13 +335,9 @@ h2 {
 }
 
 .block-feature-products-heading {
-
     margin: 85px 0px 15px 33px;
-
     font-size: 42px;
-
     letter-spacing: 0.42px;
-
     color: rgba(0, 0, 0, 0.8);
 }
 
@@ -395,30 +385,12 @@ h2 {
     letter-spacing: 0.22px;
 }
 
-.nav-bar-menu {
-    margin: 0 50px 0 0;
+.nav-bar-link {
+    color: rgba(0, 0, 0, 0.7);
 }
 
-.nav-bar-all {
-}
-
-.link-all-active {
-    color: crimson;
-}
-
-.nav-bar-print-template {
-}
-
-.nav-bar-web-template {
-    margin: 0px px 0 0px;
-}
-
-.nav-bar-user-interface {
-    margin: 0 0 0px;
-}
-
-.nav-bar-mock-up {
-    margin: 0 0 0 0px;
+.nav-bar-cell :hover {
+    color: rgb(236, 14, 58);
 }
 
 .block-feature-products-img-products {
@@ -503,7 +475,6 @@ h2 {
     margin: 26px 0px 0px 3px;
     font-size: 16px;
     line-height: 1.73;
-
     color: rgba(0, 0, 0, 0.7);
 }
 
@@ -522,17 +493,14 @@ h2 {
 
 .foto-employee-left {
     width: 26%;
-
-    margin: pxpx px px;
     background-color: #d68b8b;;
 }
 
 .name-photos-network-workers-right {
-    width: 70%;
+    width: 76%;
 }
 
 .name-description-of-social-network {
-    height: 50%;
     padding: 3px 0 0 11px;
 }
 
@@ -552,13 +520,12 @@ h2 {
     font-size: 16px;
     line-height: 1.75;
     letter-spacing: 0.42;
-
     color: rgba(0, 0, 0, 0.7);
 }
 
 .social-network {
 
-    margin: 35px 0px 0px 60px;
+    margin: 35px 0px 50px 60px;
     font-size: 18px;
     font-style: italic;
     line-height: 1.33;
@@ -573,27 +540,30 @@ h2 {
 
 .photos-of-other-workers {
     display: flex;
-    height: 50%;
     padding: 10px 0 0 0;
 
 }
 
 .foto-worker-1 {
-    width: 196.8px;
-    height: 260px;
-    margin: 0px 10px 0 10px;
+    width: 196px;
+    height: 210px;
+    margin: 0px 10px 0 70px;
     background-color: #d68b8b;
     position: relative;
 
 }
 
+div.foto-worker-1:hover div.name-worker-img {
+    display: block;
+}
+
 .name-worker-img {
+    display: none;
     width: 100%;
     height: 37px;
     background-color: #7A786E;
     position: absolute;
-    top: 179px;
-    bottom: 0;
+    bottom: 0px;
     font-size: 18.5px;
     letter-spacing: 0.19px;
     color: #ffffff;
@@ -602,8 +572,8 @@ h2 {
 }
 
 .foto-worker {
-    width: 196.8px;
-    height: 260px;
+    width: 196px;
+    height: 210px;
     margin: 0px 10px 0 10px;
     background-color: #d68b8b;
 }
@@ -705,12 +675,21 @@ h2 {
 }
 
 .group-form-contact-left {
+    width:;
     margin: 0 105px 0 0;
 }
 
+.form-name-email {
+    display: flex;
+    justify-content: space-between;
+
+}
+
 .input-name {
+    width: 339px;
+    height: 69px;
     padding: 28px 95px 27px 54px;
-    margin: 0 45px 0 0;
+    margin: 0 0 0 0;
     border-radius: 8px;
     border: none;
     font-size: 15.5px;
@@ -718,6 +697,8 @@ h2 {
 }
 
 .input-email {
+    width: 339px;
+    height: 69px;
     padding: 28px 95px 27px 54px;
     border: none;
     font-size: 15.5px;
@@ -731,7 +712,9 @@ h2 {
 }
 
 .input-massage {
-    padding: 35px 490px 198px 51px;
+    width: 731px;
+    height: 249px;
+    padding: 35px 537px 198px 51px;
     font-size: 15.5px;
     border: none;
     background-color: #ebe2e2;
@@ -739,7 +722,8 @@ h2 {
 }
 
 .button-send-message {
-    padding: 29px 285px 20px 290px;
+    width: 728px;
+    height: 72px;
     border-radius: 5px;
     background-color: #ff3b3b;
     margin: 40px 0 0 0;
@@ -772,7 +756,7 @@ h2 {
 }
 
 .contact-address {
-     width: 300px;
+    width: 300px;
     line-height: 1.75;
 }
 
@@ -788,6 +772,7 @@ h2 {
     background-color: #313030;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: #B8B8B8;
 
 }
