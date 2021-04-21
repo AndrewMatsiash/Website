@@ -886,7 +886,7 @@ div.foto-worker-1:hover div.name-worker-img {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 200px;
+        margin-top: 20px;
     }
     .block-do-you-text-under-the-heading {
         line-height: 1.75;
